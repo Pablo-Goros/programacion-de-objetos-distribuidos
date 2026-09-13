@@ -12,9 +12,9 @@ Comprender los modelos de ejecución, la concurrencia práctica en Java y la com
 
 | Bloque | Tema | Propósito | Duración estimada | Estado |
 | --- | --- | --- | --- | --- |
-| 1 | Modelos y mapa general | Distinguir los modelos secuencial, concurrente y distribuido, y relacionarlos. | 30 min | Pendiente |
-| 2 | Concurrencia práctica en Java | Repasar `ExecutorService`, pools, `Runnable`, `Callable`, `Future` y `CompletableFuture`. | 45 min | Pendiente |
-| 3 | Estado compartido y sincronización | Razonar sobre condiciones de carrera, atomicidad, visibilidad, `synchronized`, `volatile` y `happens-before`. | 60 min | Pendiente |
+| 1 | Modelos y mapa general | Distinguir los modelos secuencial, concurrente y distribuido, y relacionarlos. | 30 min | Completado |
+| 2 | Concurrencia práctica en Java | Repasar `ExecutorService`, pools, `Runnable`, `Callable`, `Future` y `CompletableFuture`. | 45 min | Completado |
+| 3 | Estado compartido y sincronización | Razonar sobre condiciones de carrera, atomicidad, visibilidad, `synchronized`, `volatile` y `happens-before`. | 60 min | Completado |
 | 4 | Progreso y alternativas a locks | Reconocer deadlock, livelock y starvation; comparar inmutabilidad, colas/pub-sub, partición de trabajo y `parallelStream`. | 45 min | Pendiente |
 | 5 | Sistemas distribuidos y RPC | Entender cliente-servidor, APIs, request/response, eventos y la abstracción de RPC. | 45 min | Pendiente |
 | 6 | gRPC y Protocol Buffers | Diseñar contratos `.proto` y comprender stubs, servidor, `StreamObserver`, streaming y `repeated`. | 75 min | Pendiente |
@@ -39,4 +39,5 @@ Los bloques 3 y 6 tienen prioridad: concentran el razonamiento de diseño y los 
 
 | Fecha | Bloque | Resultado / notas |
 | --- | --- | --- |
-| — | — | — |
+| 2026-09-13 | Bloques 1 y 2 | Se distinguieron los modelos de ejecución; se repasaron pools, `Future` y composición básica con `CompletableFuture`. |
+| 2026-09-13 | Bloque 3 | Se trabajaron condiciones de carrera, atomicidad, visibilidad, `happens-before`, `synchronized`, `volatile` y locks de instancia y clase. |
