@@ -1,1 +1,61 @@
-sources: []
+sources:
+  - id: OFF-001
+    title: "gRPC Communication Patterns"
+    type: official
+    path: "official/gRPC Communication Patterns.pdf"
+    extracted: "extracted/OFF-001.md"
+  - id: OFF-002
+    title: "gRPC Streaming"
+    type: official
+    path: "official/gRPC Streaming.pdf"
+    extracted: "extracted/OFF-002.md"
+  - id: OFF-003
+    title: "Introducción a gRPC"
+    type: official
+    path: "official/Introducción a gRPC.pdf"
+    extracted: "extracted/OFF-003.md"
+  - id: OFF-004
+    title: "Programación Concurrente - III"
+    type: official
+    path: "official/Programación Concurrente - III.pdf"
+    extracted: "extracted/OFF-004.md"
+  - id: OFF-005
+    title: "Programación Concurrente - Thread Safety"
+    type: official
+    path: "official/Programación Concurrente - Thread Safety.pdf"
+    extracted: "extracted/OFF-005.md"
+  - id: OFF-006
+    title: "Programación Concurrente - Threads"
+    type: official
+    path: "official/Programación Concurrente - Threads.pdf"
+    extracted: "extracted/OFF-006.md"
+  - id: OFF-007
+    title: "TP - gRPC - Communication Patterns"
+    type: official
+    path: "official/TP - gRPC - Communication Patterns.pdf"
+    extracted: "extracted/OFF-007.md"
+  - id: OFF-008
+    title: "TP - gRPC - III"
+    type: official
+    path: "official/TP - gRPC - III.pdf"
+    extracted: "extracted/OFF-008.md"
+  - id: OFF-009
+    title: "TP - Programacion Concurrente - Alternatives"
+    type: official
+    path: "official/TP- Programacion Concurrente - Alternatives.pdf"
+    extracted: "extracted/OFF-009.md"
+  - id: OFF-010
+    title: "TP - Programacion Concurrente - Thread Safety"
+    type: official
+    path: "official/TP- Programacion Concurrente - Thread Safety.pdf"
+    extracted: "extracted/OFF-010.md"
+  - id: OFF-011
+    title: "TP - Programacion Concurrente - Threads"
+    type: official
+    path: "official/TP- Programacion Concurrente - Threads.pdf"
+    extracted: "extracted/OFF-011.md"
+  - id: EXT-001
+    title: "POD - Resumen (1)"
+    type: external
+    path: "external/POD - Resumen (1).docx"
+    extracted: "extracted/EXT-001.md"
